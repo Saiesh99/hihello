@@ -1,0 +1,78 @@
+/* SearchCity.module.css */
+
+.searchCityContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  color: #333;
+}
+
+.inputGroup {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.inputGroup input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.inputGroup button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.inputGroup button:hover {
+  background-color: #45a049;
+}
+
+.weatherDay {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+}
+
+.weatherDay h2 {
+  margin-bottom: 10px;
+}
+
+.weatherDay .weatherDetails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.weatherDetail {
+  background-color: #e3f2fd;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+  flex: 1 0 21%; /* Adjust based on how many items you want per row */
+}
+
+.weatherDetail img {
+  margin-top: 10px;
+}
+
+.errorMessage {
+  color: red;
+  margin-top: 10px;
+}

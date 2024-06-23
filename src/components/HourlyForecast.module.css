@@ -1,0 +1,55 @@
+/* .container {
+  text-align: center;
+  padding: 20px;
+}
+
+.forecastInfo {
+  background-color: #f1f8e9;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+} */
+
+
+/* HourlyForecast.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  background-color: white;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.hourly {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hourlyItem {
+  background-color: #cceeff;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+  flex: 1 0 21%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.hourlyItem img {
+  margin-top: 10px;
+}

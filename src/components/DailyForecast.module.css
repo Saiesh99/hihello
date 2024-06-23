@@ -1,0 +1,19 @@
+/* DailyForecast.module.css */
+
+.container {
+  text-align: center;
+}
+
+.day {
+  background-color: #cceeff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  text-align: left;
+}
+
+.day img {
+  margin-top: 10px;
+}

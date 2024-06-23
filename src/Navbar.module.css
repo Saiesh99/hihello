@@ -1,0 +1,25 @@
+.navbar {
+  background-color: #2196f3;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLinks {
+  display: flex;
+  gap: 10px;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.navLink:hover {
+  background-color: #1976d2;
+}
